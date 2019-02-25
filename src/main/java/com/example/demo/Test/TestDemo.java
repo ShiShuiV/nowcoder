@@ -7,7 +7,8 @@ import java.util.UUID;
 public class TestDemo {
     public static void main(String[] args) {
         Date date=new Date();
+        System.out.println("第一次尝试");
         System.out.println(DateFormat.getDateInstance(DateFormat.FULL).format(date));
-        System.out.println(UUID.randomUUID());
+        System.out.println(UUID.randomUUID()) ;
     }
 }
